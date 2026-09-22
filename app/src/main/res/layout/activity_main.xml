@@ -61,21 +61,4 @@
         app:use_controller="false"
         app:show_buffering="when_playing" />
 
-    <!-- Scritta dei Crediti (visibile in alto dove hai cerchiato) -->
-    <TextView
-        android:id="@+id/tv_credits"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="200dp"
-        android:text="crediti a:\n@www.besciamellacruda.com\nsu tiktok per il video"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        android:visibility="gone"
-        android:shadowColor="#000000"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="4" />
 </RelativeLayout>
